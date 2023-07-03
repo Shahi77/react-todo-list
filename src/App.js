@@ -1,11 +1,14 @@
 import React from 'react'
 import useStyles from './index.css';
+import Todo from './components/Todo';
 
 function App() {
     return (
 
         <div>
-            Hello!
+            <h1>My Todos</h1>
+            <Todo />
+
         </div>
 
 
